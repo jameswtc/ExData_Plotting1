@@ -30,5 +30,5 @@ hist(working_set$Global_active_power,
      ylab = "Frequency")
 
 dev.off()
-plot(working_set$f_datetime, working_set$Global_active_power,  type = "l")
+
 
