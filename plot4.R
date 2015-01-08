@@ -22,7 +22,7 @@ working_set[, Sub_metering_1 := as.numeric(Sub_metering_1)]
 working_set[, Sub_metering_2 := as.numeric(Sub_metering_2)]
 working_set[, Sub_metering_3 := as.numeric(Sub_metering_3)]
 
-png("plot4.png")
+png("figure/plot4.png", width = 480, height = 480)
 
 par(mfrow = c(2, 2), mar = c(4, 4, 2, 1))
 

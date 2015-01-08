@@ -22,7 +22,7 @@ working_set[, Sub_metering_1 := as.numeric(Sub_metering_1)]
 working_set[, Sub_metering_2 := as.numeric(Sub_metering_2)]
 working_set[, Sub_metering_3 := as.numeric(Sub_metering_3)]
 
-png("plot3.png", width = 504, height = 504)
+png("figure/plot3.png", width = 480, height = 480)
 
 with(working_set, plot(f_datetime, Sub_metering_1, type = "l", 
                        xlab = "", ylab = "Energy sub metering"))

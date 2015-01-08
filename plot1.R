@@ -21,7 +21,7 @@ working_set[, Sub_metering_1 := as.numeric(Sub_metering_1)]
 working_set[, Sub_metering_2 := as.numeric(Sub_metering_2)]
 working_set[, Sub_metering_3 := as.numeric(Sub_metering_3)]
 
-png("plot1.png", width = 504, height = 504)
+png("figure/plot1.png", width = 480, height = 480)
 
 hist(working_set$Global_active_power, 
      col = "red", 
